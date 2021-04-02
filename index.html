@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hireo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+</head>
+
+<body>
+
+    <a onclick="topFunction()" id="myBtn">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <header>
+        <a href="#" class="logo">
+            <img src="Images/logo.webp" alt="logo">
+        </a>
+
+        <!-- Navbar -->
+        <nav class="nav-bar">
+            <ul class="nav-li">
+                <li class="nav-head">Menu</li>
+                <li class="nav-link">
+                    <div class="link-wrap">
+                        <a href="#">Home</a>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-head">Home</li>
+                        <li class="dropdown-link">Home 1</li>
+                        <li class="dropdown-link">Home 2</li>
+                        <li class="dropdown-link">Home 3</li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <div class="link-wrap">
+                        <a href="#">Find Work</a>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-head">Find Work</li>
+                        <li class="dropdown-link">Browse Jobs</li>
+                        <li class="dropdown-link">Browse Tasks</li>
+                        <li class="dropdown-link">Browse Companies</li>
+                        <li class="dropdown-link">Job Page</li>
+                        <li class="dropdown-link">Task Page</li>
+                        <li class="dropdown-link">Company Profile</li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <div class="link-wrap">
+                        <a href="#">For Employees</a>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-head">For Employees</li>
+                        <li class="dropdown-link">Find a Freelancer</li>
+                        <li class="dropdown-link">Freelancer Profile</li>
+                        <li class="dropdown-link">Post a Job</li>
+                        <li class="dropdown-link">Post a Task</li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <div class="link-wrap">
+                        <a href="#">Dashboard</a>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-head">Dashboard</li>
+                        <li class="dropdown-link">Dashboard</li>
+                        <li class="dropdown-link">Messages</li>
+                        <li class="dropdown-link">Bookmarks</li>
+                        <li class="dropdown-link">Reviews</li>
+                        <li class="dropdown-link">Jobs</li>
+                        <li class="dropdown-link">Tasks</li>
+                        <li class="dropdown-link">Settings</li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <div class="link-wrap">
+                        <a href="#">Pages</a>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-head">Pages</li>
+                        <li class="dropdown-link">Open Street Map</li>
+                        <li class="dropdown-link">Blog</li>
+                        <li class="dropdown-link">Pricing Plans</li>
+                        <li class="dropdown-link">Checkout Page</li>
+                        <li class="dropdown-link">Invoice Template</li>
+                        <li class="dropdown-link">User Interface Elements</li>
+                        <li class="dropdown-link">Icons Cheatsheet</li>
+                        <li class="dropdown-link">Login & Register</li>
+                        <li class="dropdown-link">404 Page</li>
+                        <li class="dropdown-link">Contact</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <i class="fa fa-bell">
+                <span>4</span>
+            </i>
+            <i class="fa fa-envelope">
+                <span>3</span>
+            </i>
+        </div> <!-- ./icons -->
+
+        <div class="profile">
+            <img src="Images/user-avatar-big-01.jpg" alt="profile pic">
+            <div class="online"></div>
+        </div> <!-- ./icons -->
+
+        <div class="hamburger-menu">
+            <div class="hamburger-layout">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+    </header> <!-- ./header -->
+
+    <main>
+
+        <section class="home">
+            <div class="overlay"></div> <!-- ./overlay -->
+
+            <div class="container">
+
+                <div class="home-content">
+                    <h2>Hire experts or be hired for any job, any time. </h2>
+                    <p>Thousands of small businesses use <strong style="color: #2a41e8">Hireo</strong> to turn
+                        <br> their ideas into reality.
+                    </p>
+                </div> <!-- ./home-content -->
+
+                <div class="search">
+                    <div class="right">
+                        <span>Where?</span>
+                        <div>
+                            <i class="fa fa-map-marker-alt fa-lg"></i>
+                            <input type="text" placeholder="Online Job">
+                        </div>
+                    </div> <!-- ./right -->
+
+                    <div class="left">
+                        <span>What job you want?</span>
+                        <div>
+                            <input type="text" placeholder="Job title or Keywords">
+                            <span class="search-btn">Search</span>
+                        </div>
+                    </div> <!-- left -->
+                </div> <!-- ./search -->
+
+            </div><!-- ./container -->
+
+        </section> <!-- ./home -->
+
+        <section class="categories">
+
+            <h3>Popular Job Categories</h3>
+
+            <div class="categories-cont">
+                <a href="#">
+                    <i class="fa fa-file fa-2x"></i>
+                    <div>512</div>
+                    <div>
+                        <span>Web & Software Dev</span>
+                        <p>Software Engineer, Web / Mobile Developer & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fas fa-cloud-upload-alt fa-2x"></i>
+                    <div>324</div>
+                    <div>
+                        <span>Data Science & Analitycs</span>
+                        <p>Data Specialist / Scientist, Data Analyst & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fa fa-suitcase fa-2x"></i>
+                    <div>631</div>
+                    <div>
+                        <span>Accounting & Consulting</span>
+                        <p>Auditor, Accountant, Fnancial Analyst & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>118</div>
+                    <div>
+                        <span>Writing & Translations</span>
+                        <p>Copywriter, Creative Writer, Translator & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fas fa-chart-pie fa-2x"></i>
+                    <div>190</div>
+                    <div>
+                        <span>Sales & Marketing</span>
+                        <p>Brand Manager, Marketing Coordinator & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fa fa-image fa-2x"></i>
+                    <div>319</div>
+                    <div>
+                        <span>Graphics & Design</span>
+                        <p>Creative Director, Web Designer & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fa fa-bullhorn fa-2x"></i>
+                    <div>101</div>
+                    <div>
+                        <span>Digital Marketing</span>
+                        <p>Darketing Analyst, Social Profile Admin & More</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fa fa-graduation-cap fa-2x"></i>
+                    <div>812</div>
+                    <div>
+                        <span>Education & Training</span>
+                        <p>Advisor, Coach, Education Coordinator & More</p>
+                    </div>
+                </a>
+            </div>
+        </section> <!-- ./categories -->
+
+        <!-- Jobs -->
+        <section class="jobs">
+
+            <div class="container">
+
+                <div class="heading">
+                    <h2>Featured Jobs</h2>
+                    <a href="">Browse All Jobs<i class="fa fa-long-arrow-alt-right"></i> </a>
+                </div> <!-- ./heading -->
+
+                <div class="jobs-menu">
+
+                    <a href="#" class="job">
+                        <div class="img">
+                            <img src="Images/company-logo-01.png" alt="">
+                        </div> <!-- ./img -->
+                        <div class="job-desc">
+                            <h3>Bilingual Event Support Specialist</h3>
+                            <ul>
+                                <li> <i class="fa fa-building"></i> Hexagon <i class="fa fa-check verified"></i> </li>
+                                <li> <i class="fa fa-map-marker-alt"></i> San Francissco </li>
+                                <li> <i class="fa fa-suitcase"></i> Full Time </li>
+                                <li> <i class="fas fa-chart-pie"></i> 2 days ago </li>
+                            </ul>
+                        </div> <!-- ./job-desc -->
+                        <span class="apply">Apply Now</span>
+                    </a> <!-- ./job -->
+
+                    <a href="#" class="job gray">
+                        <div class="img">
+                            <img src="Images/company-logo-02.png" alt="">
+                        </div> <!-- ./img -->
+                        <div class="job-desc">
+                            <h3>Competition Law Officer</h3>
+                            <ul>
+                                <li> <i class="fa fa-building"></i> Hexagon </li>
+                                <li> <i class="fa fa-map-marker-alt"></i> San Francissco </li>
+                                <li> <i class="fa fa-suitcase"></i> Full Time </li>
+                                <li> <i class="fas fa-chart-pie"></i> 2 days ago </li>
+                            </ul>
+                        </div> <!-- ./job-desc -->
+                        <span class="apply">Apply Now</span>
+                    </a> <!-- ./job -->
+
+                    <a href="#" class="job">
+                        <div class="img">
+                            <img src="Images/company-logo-03.png" alt="">
+                        </div> <!-- ./img -->
+                        <div class="job-desc">
+                            <h3>Barista and Cashier</h3>
+                            <ul>
+                                <li> <i class="fa fa-building"></i> Hexagon </li>
+                                <li> <i class="fa fa-map-marker-alt"></i> San Francissco </li>
+                                <li> <i class="fa fa-suitcase"></i> Full Time </li>
+                                <li> <i class="fas fa-chart-pie"></i> 2 days ago </li>
+                            </ul>
+                        </div> <!-- ./job-desc -->
+                        <span class="apply">Apply Now</span>
+                    </a> <!-- ./job -->
+
+                    <a href="#" class="job gray">
+                        <div class="img">
+                            <img src="Images/company-logo-02.png" alt="">
+                        </div> <!-- ./img -->
+                        <div class="job-desc">
+                            <h3>Restaurant General Manager</h3>
+                            <ul>
+                                <li> <i class="fa fa-building"></i> Hexagon <i class="fa fa-check verified"></i> </li>
+                                <li> <i class="fa fa-map-marker-alt"></i> San Francissco </li>
+                                <li> <i class="fa fa-suitcase"></i> Full Time </li>
+                                <li> <i class="fas fa-chart-pie"></i> 2 days ago </li>
+                            </ul>
+                        </div> <!-- ./job-desc -->
+                        <span class="apply">Apply Now</span>
+                    </a> <!-- ./job -->
+
+                    <a href="#" class="job">
+                        <div class="img">
+                            <img src="Images/company-logo-01.png" alt="">
+                        </div> <!-- ./img -->
+                        <div class="job-desc">
+                            <h3>Restaurant General Manager</h3>
+                            <ul>
+                                <li> <i class="fa fa-building"></i> Hexagon </li>
+                                <li> <i class="fa fa-map-marker-alt"></i> San Francissco </li>
+                                <li> <i class="fa fa-suitcase"></i> Full Time </li>
+                                <li> <i class="fas fa-chart-pie"></i> 2 days ago </li>
+                            </ul>
+                        </div> <!-- ./job-desc -->
+                        <span class="apply">Apply Now</span>
+                    </a> <!-- ./job -->
+
+                </div> <!-- ./jobs menu -->
+
+            </div> <!-- ./container -->
+
+        </section> <!-- ./jobs -->
+
+        <!-- Cities -->
+        <section class="cities">
+
+            <h2 class="cities-title">Featured Cities</h2>
+
+            <div class="container">
+
+                <div class="city city1">
+                    <div class="city-content">
+                        <h2>San Francisco</h2>
+                        <span>376 Jobs</span>
+                    </div>
+                    <div class="overlay"></div>
+                </div> <!-- ./city -->
+
+                <div class="city city2">
+                    <div class="city-content">
+                        <h2>New York</h2>
+                        <span>645 Jobs</span>
+                    </div>
+                    <div class="overlay"></div>
+                </div> <!-- ./city -->
+
+                <div class="city city3">
+                    <div class="city-content">
+                        <h2>Los Angeles</h2>
+                        <span>832 Jobs</span>
+                    </div>
+                    <div class="overlay"></div>
+                </div> <!-- ./city -->
+
+                <div class="city city4">
+                    <div class="city-content">
+                        <h2>Miami</h2>
+                        <span>513 Jobs</span>
+                    </div>
+                    <div class="overlay"></div>
+                </div> <!-- ./city -->
+
+            </div> <!-- ./container -->
+
+        </section> <!-- ./Cities -->
+
+        <!-- Freelancers -->
+        <section class="freelancers">
+
+            <div class="heading">
+                <h2>Highest Rated Freelancers</h2>
+                <a href="#">Browse All Freelancers <i class="fa fa-long-arrow-alt-right"></i> </a>
+            </div> <!-- ./heading -->
+
+            <i class="fa fa-chevron-left left"></i>
+            <i class="fa fa-chevron-right right"></i>
+
+            <div class="container">
+
+                <div class="freelancers-profiles">
+
+                    <div class="profile">
+
+                        <div class="profile-part1">
+
+                            <span class="star"><i class="fa fa-star"></i></span>
+                            <img class="profile-pic" src="Images/user-avatar-big-01.jpg" alt="">
+                            <span class="check"><i class="fa fa-check"></i></span>
+                            <h2 class="profile-name">Tom Smith <img class="profile-country" src="Images/fr.svg" alt="">
+                            </h2>
+                            <span class="profile-job">UI/UX Designer</span>
+                            <span class="rating">5.0</span>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+
+                        </div> <!-- ./profile-part1 -->
+
+                        <div class="profile-part2">
+
+                            <div class="part2-cont">
+                                <div class="location">
+                                    <span class="head">Location</span>
+                                    <span class="desc"><i class="fa fa-map-marker-alt"> London</i></span>
+                                </div>
+                                <div class="rate">
+                                    <span class="head">Rate</span>
+                                    <span class="desc">$60 / hr</span>
+                                </div>
+                                <div class="job-success">
+                                    <span class="head">Job Success</span>
+                                    <span class="desc">95%</span>
+                                </div>
+                            </div>
+
+                            <a href="#"><span>View Profile</span> <i class="fa fa-long-arrow-alt-right"></i></a>
+
+                        </div> <!-- ./profile-part2 -->
+
+                    </div> <!-- ./profile -->
+
+                    <div class="profile">
+
+                        <div class="profile-part1">
+
+                            <span class="star"><i class="fa fa-star"></i></span>
+                            <img class="profile-pic" src="Images/user-avatar-big-02.webp" alt="">
+                            <span class="check"><i class="fa fa-check"></i></span>
+                            <h2 class="profile-name">David Peterson <img class="profile-country" src="Images/de.svg"
+                                    alt="">
+                            </h2>
+                            <span class="profile-job">IOS Expert + Node Dev</span>
+                            <span class="rating">5.0</span>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+
+                        </div> <!-- ./profile-part1 -->
+
+                        <div class="profile-part2">
+
+                            <div class="part2-cont">
+                                <div class="location">
+                                    <span class="head">Location</span>
+                                    <span class="desc"><i class="fa fa-map-marker-alt"> Berlin</i></span>
+                                </div>
+                                <div class="rate">
+                                    <span class="head">Rate</span>
+                                    <span class="desc">$40 / hr</span>
+                                </div>
+                                <div class="job-success">
+                                    <span class="head">Job Success</span>
+                                    <span class="desc">88%</span>
+                                </div>
+                            </div>
+
+                            <a href="#"><span>View Profile</span> <i class="fa fa-long-arrow-alt-right"></i></a>
+
+                        </div> <!-- ./profile-part2 -->
+
+                    </div> <!-- ./profile -->
+
+                    <div class="profile">
+
+                        <div class="profile-part1">
+
+                            <span class="star"><i class="fa fa-star"></i></span>
+                            <img class="profile-pic" src="Images/user-avatar-big-03.webp" alt="">
+                            <span class="check"><i class="fa fa-check"></i></span>
+                            <h2 class="profile-name">Sindy Forest <img class="profile-country" src="Images/de.svg"
+                                    alt="">
+                            </h2>
+                            <span class="profile-job">Magneto Certified Developer</span>
+                            <span class="rating">4.9</span>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+
+                        </div> <!-- ./profile-part1 -->
+
+                        <div class="profile-part2">
+
+                            <div class="part2-cont">
+                                <div class="location">
+                                    <span class="head">Location</span>
+                                    <span class="desc"><i class="fa fa-map-marker-alt"> Brisbane</i></span>
+                                </div>
+                                <div class="rate">
+                                    <span class="head">Rate</span>
+                                    <span class="desc">$70 / hr</span>
+                                </div>
+                                <div class="job-success">
+                                    <span class="head">Job Success</span>
+                                    <span class="desc">100%</span>
+                                </div>
+                            </div>
+
+                            <a href="#"><span>View Profile</span> <i class="fa fa-long-arrow-alt-right"></i></a>
+
+                        </div> <!-- ./profile-part2 -->
+
+                    </div> <!-- ./profile -->
+
+                    <div class="profile hide">
+
+                        <div class="profile-part1">
+
+                            <span class="star"><i class="fa fa-star"></i></span>
+                            <img class="profile-pic" src="Images/user-avatar-big-01.jpg" alt="">
+                            <span class="check"><i class="fa fa-check"></i></span>
+                            <h2 class="profile-name">Tom Smith <img class="profile-country" src="Images/fr.svg" alt="">
+                            </h2>
+                            <span class="profile-job">UI/UX Designer</span>
+                            <span class="rating">5.0</span>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+                            <i class="rating-star fa fa-star"></i>
+
+                        </div> <!-- ./profile-part1 -->
+
+                        <div class="profile-part2">
+
+                            <div class="part2-cont">
+                                <div class="location">
+                                    <span class="head">Location</span>
+                                    <span class="desc"><i class="fa fa-map-marker-alt"> London</i></span>
+                                </div>
+                                <div class="rate">
+                                    <span class="head">Rate</span>
+                                    <span class="desc">$60 / hr</span>
+                                </div>
+                                <div class="job-success">
+                                    <span class="head">Job Success</span>
+                                    <span class="desc">95%</span>
+                                </div>
+                            </div>
+
+                            <a href="#"><span>View Profile</span> <i class="fa fa-long-arrow-alt-right"></i></a>
+
+                        </div> <!-- ./profile-part2 -->
+
+                    </div> <!-- ./profile -->
+
+                </div> <!-- ./freelancers-profiles -->
+
+            </div> <!-- ./container -->
+
+        </section> <!-- ./Freelancers -->
+
+        <!-- Membership -->
+        <section class="membership">
+
+            <h2 class="membership-title">Membership Plans</h2>
+
+            <div class="billed">
+                <label class="monthly" for="monthly"> <input id="monthly" type="radio" name="billed"> Billed
+                    Monthly</label>
+                <label class="yearly" for="yearly"> <input id="yearly" type="radio" name="billed"> Billed yearly</label>
+                <span class="disc">Save 10%</span>
+            </div> <!-- ./billed -->
+
+            
+
+
+            <div class="container">
+
+                <div class="plan">
+                    <h2 class="plan-title">Basic Plan</h2>
+                    <p class="plan-desc">One time fee for one listing or task <br> highlighted in search results.</p>
+                    <div class="price"><span>$19</span> / monthly</div>
+                    <ul class="features">
+                        <li class="features-title">Features of Basic Plan</li>
+                        <li>1 Listing</li>
+                        <li>30 Days Visibility</li>
+                        <li>Highlighted in Search Results</li>
+                    </ul>
+                    <a class="buy" href="#">Buy Now</a>
+                </div> <!-- ./plan -->
+
+                <div class="plan standard">
+                    <div class="recommended">Recommended</div> <!-- ./recommended -->
+                    <h2 class="plan-title">Standard Plan</h2>
+                    <p class="plan-desc">One time fee for one listing or task <br> highlighted in search results.</p>
+                    <div class="price"><span>$49</span> / monthly</div>
+                    <ul class="features">
+                        <li class="features-title">Features of Standard Plan</li>
+                        <li>5 Listings</li>
+                        <li>60 Days Visibility</li>
+                        <li>Highlighted in Search Results</li>
+                    </ul>
+                    <a class="buy" href="#">Buy Now</a>
+                </div> <!-- ./plan -->
+
+                <div class="plan">
+                    <h2 class="plan-title">Extended Plan</h2>
+                    <p class="plan-desc">One time fee for one listing or task <br> highlighted in search results.</p>
+                    <div class="price"><span>$99</span> / monthly</div>
+                    <ul class="features">
+                        <li class="features-title">Features of Extended Plan</li>
+                        <li>Unlimited Listings Listing</li>
+                        <li>90 Days Visibility</li>
+                        <li>Highlighted in Search Results</li>
+                    </ul>
+                    <a class="buy" href="#">Buy Now</a>
+                </div> <!-- ./plan -->
+
+            </div> <!-- ./container -->
+
+        </section> <!-- ./Membership -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-head">
+
+            <div class="logo">
+                <img src="Images/logo2.webp" alt="">
+            </div> <!-- ./logo -->
+            <div class="social-media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div> <!-- ./social-media -->
+            <div class="lang">
+                <select>
+                    <option>English</option>
+                    <option>Francais</option>
+                    <option>Espanol</option>
+                    <option>Deutsch</option>
+                </select>
+            </div> <!-- ./lang -->
+
+        </div> <!-- ./header -->
+        <div class="border"></div> <!-- ./border -->
+
+        <div class="links-cont">
+
+            <ul class="links">
+                <li class="links-categ">For Candidates</li>
+                <li><span>Browse Jobs</span></li>
+                <li><span>Add Resume</span></li>
+                <li><span>Job Alerts</span></li>
+                <li><span>My Bookmarks</span></li>
+            </ul>
+            <ul class="links">
+                <li class="links-categ">For Employers</li>
+                <li><span>Browse Candidates</span></li>
+                <li><span>Post a Job</span></li>
+                <li><span>Post a Task</span></li>
+                <li><span>Plans & Pricing</span></li>
+            </ul>
+            <ul class="links">
+                <li class="links-categ">Helpful Links</li>
+                <li><span>Contact</span></li>
+                <li><span>Privacy Policy</span></li>
+                <li><span>Terms of Use</span></li>
+            </ul>
+            <ul class="links">
+                <li class="links-categ">Account</li>
+                <li><span>Log In</span></li>
+                <li><span>My Account</span></li>
+            </ul>
+
+            <div class="sign-up">
+                <span><i class="fa fa-envelope"></i> Sign Up For a Newsletter</span>
+                <p>Weekly breaking news, analysis and cutting<br>edge advices on job searching.</p>
+                <input type="text" placeholder="Enter your email address">
+                <i class="submit fa fa-arrow-right"></i>
+            </div>
+
+        </div> <!-- ./links-cont -->
+        <div class="border"></div> <!-- ./border -->
+
+        <p class="copy">&copy; 2019 <span class="hireo">Hireo</span>. All Rights Reserved</p>
+
+    </footer> <!-- ./Footer -->
+
+    <script src="Js/Script.js"></script>
+
+</body>
+
+</html>
